@@ -24,9 +24,6 @@ public class main {
         // TODO code application logic here
         try {
            Asignatura asignatura1=new Asignatura();
-           LinkedList<String> carros=new LinkedList<String>();
-           carros.add("Mazda");
-           carros.addLast("Honda");
            carros.add("Toyota");
            carros.add("BMW");
            carros.addFirst("Ferrari");
@@ -43,7 +40,7 @@ public class main {
             
             HashSet<String> celulares=new HashSet<String>();
             celulares.add("iPhone");
-            celulares.add("Samsung");
+                            celulares.add("Samsung");
             celulares.add("Huawei");
             celulares.add("iPhone");
             System.out.println();
